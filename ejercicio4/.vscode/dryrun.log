@@ -1,0 +1,29 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/icaro/Escritorio/2º Cuatri/IA/Relacion1/ejercicio4'
+g++ -g  -c main.cpp -o main.o   
+g++ -g  -c agent_golpe.cpp -o agent_golpe.o   
+g++ -g  -c environment.cpp -o environment.o   
+ 
+g++ -g  -c GUI.cpp -o GUI.o   
+g++ -g  -c include/glui.cpp -o include/glui.o   
+g++ -g  -c include/glui_bitmap_img_data.cpp -o include/glui_bitmap_img_data.o   
+g++ -g  -c include/glui_bitmaps.cpp -o include/glui_bitmaps.o   
+g++ -g  -c include/glui_button.cpp -o include/glui_button.o   
+g++ -g  -c include/glui_column.cpp -o include/glui_column.o   
+g++ -g  -c include/glui_control.cpp -o include/glui_control.o   
+g++ -g  -c include/glui_edittext.cpp -o include/glui_edittext.o   
+g++ -g  -c include/glui_node.cpp -o include/glui_node.o   
+g++ -g  -c include/glui_panel.cpp -o include/glui_panel.o   
+g++ -g  -c include/glui_radio.cpp -o include/glui_radio.o   
+g++ -g  -c include/glui_rollout.cpp -o include/glui_rollout.o   
+g++ -g  -c include/glui_spinner.cpp -o include/glui_spinner.o   
+g++ -g  -c include/glui_statictext.cpp -o include/glui_statictext.o   
+g++ -g  -c include/glui_string.cpp -o include/glui_string.o   
+g++ -g  -c include/glui_window.cpp -o include/glui_window.o   
+g++ -g  -c include/glui_filebrowser.cpp -o include/glui_filebrowser.o   
+g++ -g  -c include/glui_list.cpp -o include/glui_list.o   
+g++ -g  -c include/glui_scrollbar.cpp -o include/glui_scrollbar.o   
+g++ -g  -c include/glui_tree.cpp -o include/glui_tree.o   
+g++ -g  main.o agent_golpe.o environment.o GUI.o include/glui.o include/glui_bitmap_img_data.o include/glui_bitmaps.o include/glui_button.o include/glui_column.o include/glui_control.o include/glui_edittext.o include/glui_node.o include/glui_panel.o include/glui_radio.o include/glui_rollout.o include/glui_spinner.o include/glui_statictext.o include/glui_string.o include/glui_window.o include/glui_filebrowser.o include/glui_list.o include/glui_scrollbar.o include/glui_tree.o -o agent_golpe -lglut -lGL -lGLU
+make: Leaving directory '/home/icaro/Escritorio/2º Cuatri/IA/Relacion1/ejercicio4'
+ 

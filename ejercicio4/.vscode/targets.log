@@ -1,0 +1,680 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Mar 26 19:39:54 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 5)
+OBJ = main.o agent_golpe.o environment.o GUI.o include/glui.o include/glui_bitmap_img_data.o include/glui_bitmaps.o include/glui_button.o include/glui_column.o include/glui_control.o include/glui_edittext.o include/glui_node.o include/glui_panel.o include/glui_radio.o include/glui_rollout.o include/glui_spinner.o include/glui_statictext.o include/glui_string.o include/glui_window.o include/glui_filebrowser.o include/glui_list.o include/glui_scrollbar.o include/glui_tree.o
+# environment
+GDK_BACKEND = x11
+ 
+# environment
+LC_ALL = C
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-32aca021-98a6-4643-b913-157956767ca0.sock
+# environment
+VSCODE_CWD = /home/icaro
+# makefile (from 'Makefile', line 7)
+LIBS = -lglut -lGL -lGLU
+# environment
+LESS_TERMCAP_me = [0m
+# environment
+GDM_LANG = es_ES.utf8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/icaro/Escritorio/2º Cuatri/IA/Relacion1/ejercicio4
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/xfce4:/home/icaro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/usr/share
+# environment
+OLDPWD = /home/icaro
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = true
+# automatic
+%F = $(notdir $%)
+# environment
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# environment
+LANG = C
+# environment
+POWERSHELL_UPDATECHECK = Off
+# environment
+XAUTHORITY = /home/icaro/.Xauthority
+# default
+.LOADED := 
+# environment
+LESS_TERMCAP_md = [1;36m
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+LESS_TERMCAP_so = [01;33m
+# makefile (from 'Makefile', line 6)
+LINKOBJ = main.o agent_golpe.o environment.o GUI.o include/glui.o include/glui_bitmap_img_data.o include/glui_bitmaps.o include/glui_button.o include/glui_column.o include/glui_control.o include/glui_edittext.o include/glui_node.o include/glui_panel.o include/glui_radio.o include/glui_rollout.o include/glui_spinner.o include/glui_statictext.o include/glui_string.o include/glui_window.o include/glui_filebrowser.o include/glui_list.o include/glui_scrollbar.o include/glui_tree.o
+# makefile
+CURDIR := /home/icaro/Escritorio/2º Cuatri/IA/Relacion1/ejercicio4
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+LESS_TERMCAP_ue = [0m
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXjZaFo5/agent.1047
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"Code - OSS","submitURL":"","uploadToServer":false}
+# environment
+XDG_SESSION_DESKTOP = lightdm-xsession
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 48132
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/kali:@/tmp/.ICE-unix/1047,unix/kali:/tmp/.ICE-unix/1047
+# automatic
+*F = $(notdir $*)
+# environment
+QT_QPA_PLATFORMTHEME = qt5ct
+# environment
+CHROME_DESKTOP = code-oss-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"es","availableLanguages":{},"_languagePackSupport":true}
+# environment
+BREAKPAD_DUMP_LOCATION = /home/icaro/.config/Code - OSS/exthost Crash Reports
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# environment
+LESS_TERMCAP_us = [1;32m
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/sbin:/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/icaro/.dotnet/tools
+# environment
+LESS_TERMCAP_se = [0m
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+COMMAND_NOT_FOUND_INSTALL_PROMPT = 1
+# environment
+LESS_TERMCAP_mb = [1;31m
+# makefile (from 'Makefile', line 3)
+CPP = g++ -g 
+# makefile (from 'Makefile', line 8)
+INCS = 
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# environment
+XDG_CURRENT_DESKTOP = XFCE
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# environment
+DESKTOP_SESSION = lightdm-xsession
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = icaro
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code-oss.desktop
+# environment
+XDG_VTNR = 7
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from 'Makefile', line 13)
+RM = rm -f
+# environment
+DISPLAY = :0.0
+# environment
+USER = icaro
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 48132
+# environment
+SSH_AGENT_PID = 1099
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = 
+# environment
+_ = /usr/lib/code-oss/code-oss
+# makefile (from 'Makefile', line 10)
+BIN = agent_golpe
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 12)
+CFLAGS = $(INCS)  
+# environment
+POWERSHELL_TELEMETRY_OPTOUT = 1
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/icaro
+# environment
+_JAVA_OPTIONS = -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-f9f071d1-1.56.1-main.sock
+# environment
+GSETTINGS_SCHEMA_DIR = /home/icaro/data
+# environment
+XDG_SESSION_ID = 2
+# environment
+DOTNET_CLI_TELEMETRY_OPTOUT = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+QT_AUTO_SCREEN_SCALE_FACTOR = 0
+# makefile (from 'Makefile', line 9)
+CXXINCS = 
+# makefile (from 'Makefile', line 11)
+CXXFLAGS = $(CXXINCS)  
+# environment
+XDG_GREETER_DATA_DIR = /var/lib/lightdm/data/icaro
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 4)
+CC = gcc
+# environment
+XDG_MENU_PREFIX = xfce-
+# environment
+GDMSESSION = lightdm-xsession
+# variable set hash-table stats:
+# Load=118/1024=12%, Rehash=0, Collisions=12/156=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66309, inode 25429088): 30 files, no impossibilities.
+
+# 30 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+include/glui_radio.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+agent_golpe.o: agent_golpe.cpp
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2022-03-26 19:03:05.448165576
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := agent_golpe.o
+# automatic
+# * := 
+# automatic
+# < := agent_golpe.cpp
+# automatic
+# + := agent_golpe.cpp
+# automatic
+# % := 
+# automatic
+# ^ := agent_golpe.cpp
+# automatic
+# ? := agent_golpe.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=5/14=36%
+#  recipe to execute (from 'Makefile', line 30):
+	$(CPP) -c agent_golpe.cpp -o agent_golpe.o $(CXXFLAGS)
+
+ 
+# Not a target:
+include/glui_button.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_scrollbar.o: include/glui_scrollbar.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	$(CPP) -c include/glui_scrollbar.cpp -o include/glui_scrollbar.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_scrollbar.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_radio.o: include/glui_radio.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	$(CPP) -c include/glui_radio.cpp -o include/glui_radio.o $(CXXFLAGS)
+
+environment.o: environment.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 33):
+	$(CPP) -c environment.cpp -o environment.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_string.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/glui_column.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2016-03-02 17:10:04
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/glui_bitmaps.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_control.o: include/glui_control.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	$(CPP) -c include/glui_control.cpp -o include/glui_control.o $(CXXFLAGS)
+
+include/glui_window.o: include/glui_window.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 81):
+	$(CPP) -c include/glui_window.cpp -o include/glui_window.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_window.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_button.o: include/glui_button.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 48):
+	$(CPP) -c include/glui_button.cpp -o include/glui_button.o $(CXXFLAGS)
+
+clean: clean-custom
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	${RM} $(OBJ) $(BIN)
+
+include/glui_bitmap_img_data.o: include/glui_bitmap_img_data.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	$(CPP) -c include/glui_bitmap_img_data.cpp -o include/glui_bitmap_img_data.o $(CXXFLAGS)
+
+GUI.o: GUI.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 36):
+	$(CPP) -c GUI.cpp -o GUI.o $(CXXFLAGS)
+
+agent_golpe: main.o agent_golpe.o environment.o GUI.o include/glui.o include/glui_bitmap_img_data.o include/glui_bitmaps.o include/glui_button.o include/glui_column.o include/glui_control.o include/glui_edittext.o include/glui_node.o include/glui_panel.o include/glui_radio.o include/glui_rollout.o include/glui_spinner.o include/glui_statictext.o include/glui_string.o include/glui_window.o include/glui_filebrowser.o include/glui_list.o include/glui_scrollbar.o include/glui_tree.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-03-26 19:03:12.324165874
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 24):
+	$(CPP) $(LINKOBJ) -o agent_golpe $(LIBS)
+
+include/glui_panel.o: include/glui_panel.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	$(CPP) -c include/glui_panel.cpp -o include/glui_panel.o $(CXXFLAGS)
+
+include/glui_bitmaps.o: include/glui_bitmaps.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 45):
+	$(CPP) -c include/glui_bitmaps.cpp -o include/glui_bitmaps.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_rollout.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui.o: include/glui.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 39):
+	$(CPP) -c include/glui.cpp -o include/glui.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_control.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/glui_spinner.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_string.o: include/glui_string.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 78):
+	$(CPP) -c include/glui_string.cpp -o include/glui_string.o $(CXXFLAGS)
+
+all: all-before agent_golpe all-after
+ 
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+include/glui_statictext.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/glui_tree.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2016-03-02 17:10:02
+#  File has been updated.
+#  Successfully updated.
+
+include/glui_list.o: include/glui_list.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 87):
+	$(CPP) -c include/glui_list.cpp -o include/glui_list.o $(CXXFLAGS)
+
+include/glui_column.o: include/glui_column.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 51):
+	$(CPP) -c include/glui_column.cpp -o include/glui_column.o $(CXXFLAGS)
+
+include/glui_tree.o: include/glui_tree.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 93):
+	$(CPP) -c include/glui_tree.cpp -o include/glui_tree.o $(CXXFLAGS)
+
+# Not a target:
+agent_golpe.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-26 19:39:54.092261125
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-03-26 19:03:05.176165564
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 27):
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_bitmap_img_data.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_rollout.o: include/glui_rollout.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 69):
+	$(CPP) -c include/glui_rollout.cpp -o include/glui_rollout.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_filebrowser.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/glui_edittext.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_edittext.o: include/glui_edittext.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	$(CPP) -c include/glui_edittext.cpp -o include/glui_edittext.o $(CXXFLAGS)
+
+clean-custom:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+all-after:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+include/glui_node.o: include/glui_node.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	$(CPP) -c include/glui_node.cpp -o include/glui_node.o $(CXXFLAGS)
+
+all-before:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+include/glui_node.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_statictext.o: include/glui_statictext.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	$(CPP) -c include/glui_statictext.cpp -o include/glui_statictext.o $(CXXFLAGS)
+
+include/glui_filebrowser.o: include/glui_filebrowser.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 84):
+	$(CPP) -c include/glui_filebrowser.cpp -o include/glui_filebrowser.o $(CXXFLAGS)
+
+.PHONY: all all-before all-after clean clean-custom
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/glui.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+include/glui_spinner.o: include/glui_spinner.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	$(CPP) -c include/glui_spinner.cpp -o include/glui_spinner.o $(CXXFLAGS)
+
+# Not a target:
+include/glui_panel.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+include/glui_list.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GUI.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+environment.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=56/1024=5%, Rehash=0, Collisions=6/148=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 78 / storage = 1306 B / avg = 16 B
+# current buf: size = 8162 B / used = 1306 B / count = 78 / avg = 16 B
+
+# strcache performance: lookups = 149 / hit rate = 47%
+# hash-table stats:
+# Load=78/8192=1%, Rehash=0, Collisions=1/149=1%
+# Finished Make data base on Sat Mar 26 19:39:54 2022
+
+ 
